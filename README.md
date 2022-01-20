@@ -3,8 +3,10 @@ A (very) simple Python server for sharing files between computers.
 
 ## Setup
 
-- Make sure python is installed. From a PowerShell or Bash shell, type `python3 --version`
-- Download and install pip3 if you have not already.
+- Make sure python, pip, and git are all installed. From a PowerShell or Bash shell:
+
+`git --version; python3 --version; pip3 --version`
+
 - Clone down the respository to the computer that will be hosting the server.
 
 `git clone https://github.com/00Duck/QuickSharePy`
@@ -19,7 +21,7 @@ A (very) simple Python server for sharing files between computers.
 
 `PORT = 8000` The default port to use
 
-`SHARED_DIR = '/path/to/shared/folder'` Make sure to change this to the correct full folder path you would like to share
+`SHARED_DIR = r'/path/to/shared/folder'` Make sure to change this to the correct full folder path you would like to share
 
 - Save and close the file
 - Type `python3 srv.py` to start the server.
